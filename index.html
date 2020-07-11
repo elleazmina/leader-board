@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" style="margin-left:300px"><img src="images/icons/logo.png" alt="">Idea</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto" style="margin-right: 300px">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item">
+                <img src="images/players/player-1.png" alt="">
+              </li>
+          </ul>
+        </div>
+      </nav>
+ </header>
+
+    <main class="mx-auto">
+        <section class="container-fluid top-player">
+            <h3>Top Players</h3>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 player p-3  d-flex align-items-center">
+                    <img src="images/players/player-1.png" alt="">
+                    <p class="pl-3" style="font-size: 18px"  >Rickey Ponting</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-3  d-flex align-items-center">
+                    <img src="images/players/player-2.png" alt="">
+                    <p class="pl-3" style="font-size: 18px" >Virat Kohli</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-3  d-flex align-items-center">
+                    <img src="images/players/player-3.png" alt="">
+                    <p class="pl-3" style="font-size: 18px" >Shahid Afridi</p>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 player p-3  d-flex align-items-center">
+                    <img src="images/players/player-4.png" alt="">
+                    <p class="pl-3" style="font-size: 18px" >Sakib Al Hasan</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-3  d-flex align-items-center">
+                    <img src="images/players/player-5.png" alt="">
+                    <p class="pl-3" style="font-size: 18px" >Leonel Messy</p>
+                </div>
+                <div class="col-md-4 col-sm-6 player p-3  d-flex align-items-center">
+                    <img src="images/players/player-6.png" alt="">
+                    <p class="pl-3" style="font-size: 18px" >Christiano Ronaldo</p>
+                    
+                </div>
+                
+            </div>
+            <button class="line"></button>
+            <br><br>
+            
+        <!-- </section>
+
+        <section class="container-fluid top-blog"> -->
+          <h3>Top Blogs</h3>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 blog p-3  d-flex align-items-center">
+                    <img src="images/blogs/blog-1.png" alt="">
+                    <p class="pl-3"  >13 of My Favorite UI/UX Goodies <br><span class="author" ><span class="text-muted">By </span>Danny Sapio</span></p>
+                    
+                </div>
+                <div class="col-md-6 col-sm-6 blog p-3  d-flex align-items-center">
+                    <img src="images/blogs/blog-2.png" alt="">
+                    <p class="pl-3"  >UI cheat sheet: list vs grids <br><span class="author" ><span class="text-muted">By </span>Tess Gadd</span></p>
+                </div>
+            </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-6 blog p-3  d-flex align-items-center">
+                    <img src="images/blogs/blog-3.png" alt="">
+                    <p class="pl-3"  >7 typography tips for interface design <br><span class="author" ><span class="text-muted">By </span>Jeremiah Lam</span></p>
+                </div>
+                <div class="col-md-6 col-sm-6 blog p-3  d-flex align-items-center">
+                    <img src="images/blogs/blog-4.png" alt="">
+                    <p class="pl-3"  >Your logo is copied <br><span class="author" ><span class="text-muted">By </span>Ferdinand Vogler<span></p>
+                </div>
+            </div>
+       </section>
+
+       <section class="container-fluid latest-course">
+        <h3>Latest Courses</h3>
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/courses/course-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">React The Complete Guide 2020</h5>
+              <p class="card-text">Reed Krakoff</p>
+            </div>
+            <div class="card-footer d-flex align-items-center">
+              <div class=" row-6 d-flex justify-content-start">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <p class="text-muted" style="margin-right: 10px">4.5</p>
+              </div>
+             <div class="clock row-6 d-flex justify-content-end">
+                <img src="images/icons/clock.png" alt="">
+                <p style="color:red"> 1:30 hr</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/courses/course-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Master Powerpoint Course 2020</h5>
+              <p class="card-text">Walter Scott</p>
+            </div>
+            <div class="card-footer d-flex align-items-center">
+              <div class=" row-6 d-flex justify-content-start">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <p class="text-muted" style="margin-right: 10px">4.5</p>
+              </div>
+             <div class="clock row-6 d-flex justify-content-end">
+                <img src="images/icons/clock.png" alt="">
+                <p style="color:red"> 1:30 hr</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="card">
+            <img src="images/courses/course-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Complete Javascript Course 2020</h5>
+              <p class="card-text">Brad Traversy</p>
+            </div>
+            <div class="card-footer d-flex align-items-center">
+              <div class=" row-6 d-flex justify-content-start">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <img src="images/icons/star.png" alt="">
+                <p class="text-muted" style="margin-right: 10px">4.5</p>
+              </div>
+             <div class="clock row-6 d-flex justify-content-end">
+                <img src="images/icons/clock.png" alt="">
+                <p style="color:red"> 1:30 hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+
+</main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

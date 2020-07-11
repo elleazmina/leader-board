@@ -1,0 +1,72 @@
+body{
+    background-color: #f3f1ff;
+}
+.navbar{
+    background-color: #6d2eff;
+}
+.navbar img{
+    width: 40px;
+}
+.player img{
+    width: 56px;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    left: 315px;
+    top: 507px;
+}
+main{
+    max-width: 870px;
+}
+/* .top-player{
+    background-color: white;
+} */
+.container-fluid{
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.pl-3{
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+}
+h3{
+    color: #6d2eff ;
+    margin-bottom: 50px;
+}
+.card-text{
+    color: rgb(255, 72, 0);
+    font-weight: 500;
+}
+.card-footer{
+    border: none;
+}
+.card-footer img{
+    width:15px;
+    height: 15px;
+}
+.line{
+    width: 830px;
+    height: 0;
+    color: gray;
+    border: none;
+}
+.clock{
+    margin-left: 40px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.clock img{
+    height: 20px;
+    width: 20px;
+}
+.author{
+    color: #6d2eff;
+    font-size:17px;
+    font-weight: 500;
+}
